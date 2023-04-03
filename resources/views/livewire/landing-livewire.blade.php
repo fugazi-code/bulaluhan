@@ -24,7 +24,7 @@
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-auto">
-                    <a href="./menu.html" class="btn theme-button btn-sm mt-2" type="button">VIEW MENU</a>
+                    <a href="{{ route('menu') }}" class="btn theme-button btn-sm mt-2" type="button">VIEW MENU</a>
                 </div>
             </div>
         </div>

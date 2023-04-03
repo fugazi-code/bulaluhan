@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\LandingLivewire;
+use App\Http\Livewire\MenuLivewire;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', LandingLivewire::class);
+Route::get('/menu', MenuLivewire::class)->name('menu');
