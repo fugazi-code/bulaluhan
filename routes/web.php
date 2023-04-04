@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', LandingLivewire::class);
+Route::get('/', LandingLivewire::class)->name('home');
 Route::get('/menu', MenuLivewire::class)->name('menu');

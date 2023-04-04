@@ -85,7 +85,7 @@
         AOS.init();
 
         let places = document.querySelectorAll(".place-list li");
-        let activ > e = "/assets/img/mayon/mayon-1.webp";
+        let active = "/assets/img/mayon/mayon-1.webp";
 
         places.forEach((e) => {
             e.addEventListener("mouseenter", (event) => {
